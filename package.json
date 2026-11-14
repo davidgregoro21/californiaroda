@@ -1,0 +1,15 @@
+{
+  "name": "california-rodas-site",
+  "version": "1.0.0",
+  "description": "Site da California Rodas - recuperadora de rodas em Porto Alegre",
+  "main": "server.js",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo \"Site estatico, nada para compilar\""
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "UNLICENSED"
+}
