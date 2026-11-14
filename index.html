@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>California Rodas | Recuperadora de Rodas em Porto Alegre – Zona Norte</title>
-<meta name="description" content="California Rodas, recuperadora de rodas em Porto Alegre (Zona Norte): desempeno, solda de trincas, pintura, diamantação e riscos de meio-fio. Buscamos e levamos sua roda. Orçamento rápido pelo WhatsApp (51) 9692-3466.">
+<meta name="description" content="California Rodas, recuperadora de rodas em Porto Alegre (Zona Norte): desempeno, solda de trincas, pintura, diamantação e riscos de meio-fio. Mais de 15 anos e mais de 10 mil serviços realizados. Buscamos e levamos sua roda e emprestamos rodas até o serviço ficar pronto. Orçamento rápido pelo WhatsApp (51) 9692-3466.">
 <meta name="keywords" content="recuperadora de rodas, recuperação de rodas de liga leve, pintura de rodas, desempeno de rodas, roda torta, diamantação de rodas, solda de roda, recuperadora de rodas Porto Alegre, rodas zona norte Porto Alegre, California Rodas">
 <meta property="og:title" content="California Rodas – Recuperadora de Rodas de Liga Leve">
 <meta property="og:description" content="Sua roda como nova. Buscamos e entregamos. Orçamento pelo WhatsApp.">
@@ -73,6 +73,10 @@ header.solid{background:rgba(13,14,16,.92);backdrop-filter:blur(10px);border-bot
 .badges{display:flex;flex-wrap:wrap;gap:12px 26px;margin-top:2.6rem;color:#cfd3d8;font-size:.95rem}
 .badges div{display:flex;align-items:center;gap:.5rem}
 .badges svg{width:20px;height:20px;color:var(--red2)}
+.stats{display:flex;flex-wrap:wrap;gap:16px 40px;margin-top:2.2rem}
+.stats div{border-left:3px solid var(--red);padding-left:14px;line-height:1.1}
+.stats strong{display:block;font-family:"Barlow Condensed";font-weight:800;font-size:clamp(2rem,4vw,2.6rem);color:#fff}
+.stats span{color:var(--mut);font-size:.92rem}
 
 /* leva e traz faixa */
 .strip{background:var(--red);color:#fff}
@@ -132,6 +136,11 @@ header.solid{background:rgba(13,14,16,.92);backdrop-filter:blur(10px);border-bot
 .ba-list{list-style:none;display:grid;gap:12px;margin:22px 0 30px}
 .ba-list li{display:flex;gap:12px;align-items:flex-start;color:#d4d8dd}
 .ba-list svg{width:22px;height:22px;color:var(--red2);flex:none;margin-top:2px}
+.ba-photos{display:grid;grid-template-columns:1.3fr 1fr;gap:14px;align-items:center}
+.ba-photos figure{border-radius:var(--r);overflow:hidden;background:#1d1a16;border:1px solid var(--line);cursor:zoom-in;display:grid;place-items:center;aspect-ratio:4/5}
+.ba-photos img{width:100%;height:100%;object-fit:cover}
+.ba-photos figure.fit{aspect-ratio:632/482}
+@media(max-width:560px){.ba-photos{grid-template-columns:1fr}.ba-photos figure{aspect-ratio:auto}}
 .ba-more{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;margin-top:40px}
 @media(max-width:880px){.ba-wrap{grid-template-columns:1fr;gap:30px}}
 
@@ -231,8 +240,13 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
     </div>
     <div class="badges">
       <div><svg><use href="#truck"/></svg>Buscamos e entregamos</div>
+      <div><svg><use href="#wheel"/></svg>Rodas emprestadas até ficar pronto</div>
       <div><svg><use href="#check"/></svg>Orçamento sem compromisso</div>
       <div><svg><use href="#check"/></svg>Cores originais e personalizadas</div>
+    </div>
+    <div class="stats">
+      <div><strong>+15 anos</strong><span>de experiência</span></div>
+      <div><strong>+10 mil</strong><span>serviços realizados</span></div>
     </div>
     </div>
     <div class="hero-logo"><img src="img/logo.jpg" alt="Logo California Rodas – mastim com roda de liga leve"></div>
@@ -243,7 +257,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
   <div class="wrap">
     <div>
       <h3>Serviço leva e traz</h3>
-      <p>Buscamos as rodas no seu endereço e devolvemos recuperadas. Sem perder seu dia.</p>
+      <p>Buscamos as rodas no seu endereço e devolvemos recuperadas. Emprestamos rodas para o carro não ficar parado enquanto o serviço fica pronto.</p>
     </div>
     <a class="btn js-wa" href="#" data-msg="Olá! Quero agendar a busca das minhas rodas."><svg><use href="#wa"/></svg>Agendar a busca</a>
   </div>
@@ -262,7 +276,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
       <article class="serv reveal"><div class="ic"><svg><use href="#spray"/></svg></div><h3>Pintura de rodas</h3><p>Pintura na cor original de fábrica ou personalizada: preto, grafite, bronze, prata e o que você imaginar.</p></article>
       <article class="serv reveal"><div class="ic"><svg><use href="#spark"/></svg></div><h3>Diamantação</h3><p>Acabamento diamantado na face da roda, com brilho de roda nova saindo da concessionária.</p></article>
       <article class="serv reveal"><div class="ic"><svg><use href="#curb"/></svg></div><h3>Riscos de meio-fio</h3><p>Aquela raspada na guia? Recuperamos a borda e deixamos sem marca.</p></article>
-      <article class="serv reveal"><div class="ic"><svg><use href="#truck"/></svg></div><h3>Leva e traz</h3><p>Retiramos e montamos as rodas no seu carro, em casa ou no trabalho. Você não precisa se deslocar.</p></article>
+      <article class="serv reveal"><div class="ic"><svg><use href="#truck"/></svg></div><h3>Leva e traz</h3><p>Retiramos e montamos as rodas no seu carro, em casa ou no trabalho, e deixamos rodas emprestadas até as suas ficarem prontas.</p></article>
     </div>
   </div>
 </section>
@@ -273,7 +287,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
       <div class="reveal">
         <div class="sec-head" style="margin-bottom:10px">
           <span class="eyebrow">Antes e depois</span>
-          <h2>Arraste e veja a diferença</h2>
+          <h2>Veja a diferença</h2>
           <p>Roda raspada no meio-fio, pintura descascada e encardida de pó de freio. A gente devolve com cara de roda nova.</p>
         </div>
         <ul class="ba-list">
@@ -284,14 +298,10 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
         <a class="btn btn-wa js-wa" href="#" data-msg="Olá! Quero deixar minha roda assim. Vou mandar uma foto para orçamento."><svg><use href="#wa"/></svg>Mande a foto da sua roda</a>
       </div>
       <div class="reveal">
-        <div class="ba" id="ba-demo" style="--p:50%">
-          <div class="layer after" data-wheel="after" data-id="a"></div>
-          <div class="layer before" data-wheel="before" data-id="b"></div>
-          <span class="lbl l">ANTES</span><span class="lbl r">DEPOIS</span>
-          <div class="bar"></div><div class="knob">⟷</div>
-          <input type="range" min="0" max="100" value="50" aria-label="Comparar antes e depois">
+        <div class="ba-photos">
+          <figure class="fit"><img src="img/antes-depois-1.jpg" alt="Roda antes e depois: prata desgastada e recuperada em preto com face diamantada" loading="lazy"></figure>
+          <figure><img src="img/antes-depois-2.jpg" alt="Roda antes e depois: metade suja e oxidada, metade recuperada e brilhante" loading="lazy"></figure>
         </div>
-        <p class="ba-note">Ilustração do tipo de resultado, não é foto de um serviço real.</p>
       </div>
     </div>
     <div class="ba-more" id="ba-reais"></div>
@@ -312,7 +322,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
       </div>
       <ol class="steps">
         <li><div><h3>Mande uma foto pelo WhatsApp</h3><p>Com a foto do dano já passamos uma avaliação e o orçamento.</p></div></li>
-        <li><div><h3>Buscamos a roda</h3><p>Combinamos dia e horário. Retiramos no seu endereço.</p></div></li>
+        <li><div><h3>Buscamos a roda</h3><p>Combinamos dia e horário. Retiramos no seu endereço e, se precisar, deixamos rodas emprestadas no carro.</p></div></li>
         <li><div><h3>Recuperamos na oficina</h3><p>Desempeno, solda, pintura ou diamantação, conforme o que a roda precisa.</p></div></li>
         <li><div><h3>Entregamos pronta</h3><p>Devolvemos a roda recuperada e montada. É só rodar.</p></div></li>
       </ol>
@@ -343,9 +353,11 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
     <div class="sec-head reveal">
       <span class="eyebrow">Por que a California</span>
       <h2>Feito por quem entende de roda</h2>
+      <p>Mais de 15 anos no mercado e mais de 10 mil serviços realizados.</p>
     </div>
     <div class="why reveal">
-      <div><h3>Comodidade</h3><p>Buscamos e entregamos. Você economiza tempo e não fica sem carro à toa.</p></div>
+      <div><h3>Experiência</h3><p>Mais de 15 anos e mais de 10 mil serviços realizados em rodas de liga leve.</p></div>
+      <div><h3>Comodidade</h3><p>Buscamos e entregamos, e emprestamos rodas até o serviço ficar pronto. Você não fica sem carro.</p></div>
       <div><h3>Economia</h3><p>Recuperar sai bem mais barato que comprar roda nova, com o mesmo visual.</p></div>
       <div><h3>Acabamento</h3><p>Cuidado em cada etapa, da preparação à pintura final.</p></div>
       <div><h3>Atendimento direto</h3><p>Fale com quem faz o serviço, sem enrolação, pelo WhatsApp.</p></div>
@@ -361,6 +373,7 @@ footer .wrap{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
     </div>
     <div class="faq-list reveal">
       <details><summary>Vocês buscam a roda em casa?</summary><p>Sim. Fazemos o leva e traz: retiramos as rodas no endereço combinado e devolvemos prontas. Consulte a região de atendimento pelo WhatsApp.</p></details>
+      <details><summary>Fico sem carro enquanto a roda é recuperada?</summary><p>Não. Dispomos de rodas para empréstimo: montamos no seu carro e você roda normalmente até o serviço ficar pronto.</p></details>
       <details><summary>Como faço o orçamento?</summary><p>Mande pelo WhatsApp uma foto de cada roda mostrando o dano, o modelo do carro e o aro. Respondemos com a avaliação e o valor.</p></details>
       <details><summary>Quanto tempo demora?</summary><p>Depende do serviço e da quantidade de rodas. Informamos o prazo junto com o orçamento.</p></details>
       <details><summary>Roda trincada tem conserto?</summary><p>Na maioria dos casos, sim. Avaliamos a trinca e, se for seguro, fazemos a solda e o acabamento. Se não for seguro, avisamos com sinceridade.</p></details>
@@ -465,62 +478,12 @@ buildMsg();
 /* Dados estruturados para o Google (negócio local) */
 const ld = {
   "@context":"https://schema.org","@type":"AutoRepair",
-  "name":"California Rodas","description":"Recuperadora de rodas de liga leve em Porto Alegre (Zona Norte): desempeno, solda, pintura, diamantação. Serviço leva e traz.",
+  "name":"California Rodas","description":"Recuperadora de rodas de liga leve em Porto Alegre (Zona Norte): desempeno, solda, pintura, diamantação. Serviço leva e traz e rodas para empréstimo. Mais de 15 anos e mais de 10 mil serviços realizados.",
   "image":"img/logo.jpg","logo":"img/logo.jpg","telephone":"+" + CONFIG.whatsapp,
   "address":{"@type":"PostalAddress","streetAddress":CONFIG.endereco,"addressLocality":CONFIG.cidade,"addressRegion":CONFIG.uf,"addressCountry":"BR"},"areaServed":"Porto Alegre e região",
   "sameAs":[CONFIG.instagram],"priceRange":"$$"
 };
 const s = document.createElement("script"); s.type = "application/ld+json"; s.textContent = JSON.stringify(ld); document.head.appendChild(s);
-
-/* Ilustração vetorial da roda (antes = danificada, depois = recuperada) */
-function wheelSVG(state, id){
-  const A = state === "after";
-  let spokes = "";
-  for (let i = 0; i < 5; i++){
-    for (const o of [-10, 10]){
-      const r = i*72 + o;
-      spokes += `<g transform="rotate(${r})"><path d="M-5 -19 L-11 -72 Q0 -75 11 -72 L5 -19 Z" fill="url(#sp${id})"/>` +
-        (A ? `<path d="M-1.6 -22 L-3.4 -70 Q0 -71 3.4 -70 L1.6 -22 Z" fill="url(#dc${id})"/>` :
-             `<path d="M-4 -40 l3 -2 l2 3 l-3 2z M2 -58 l3 -1 l1 3 l-3 1z" fill="#3b3833" opacity=".8"/>`) + `</g>`;
-    }
-  }
-  let lugs = "";
-  for (let i = 0; i < 5; i++){ const a = (i*72-90)*Math.PI/180; lugs += `<circle cx="${(11*Math.cos(a)).toFixed(2)}" cy="${(11*Math.sin(a)).toFixed(2)}" r="2.6" fill="${A?'#c9ced4':'#7a766e'}" stroke="#111" stroke-width=".8"/>`; }
-  let damage = "";
-  if (!A){
-    // raspado de meio-fio na borda
-    for (let k = 0; k < 26; k++){
-      const ang = (200 + k*3.4 + (k%3)*0.8) * Math.PI/180, r1 = 79.5 - (k%4), r2 = 76 + (k%3);
-      const a2 = ang + 0.05;
-      damage += `<path d="M${(r1*Math.cos(ang)).toFixed(1)} ${(r1*Math.sin(ang)).toFixed(1)} L${(r2*Math.cos(a2)).toFixed(1)} ${(r2*Math.sin(a2)).toFixed(1)}" stroke="${k%2?'#e6e2da':'#9c978d'}" stroke-width="${1+(k%3)*.5}" stroke-linecap="round"/>`;
-    }
-    damage += `<path d="M58 30 q5 -3 9 1 q-2 6 -8 5z M-30 70 q6 -2 10 2 q-4 4 -9 2z M70 -18 q3 0 5 4 q-3 2 -6 0z" fill="#c8c2b6" opacity=".85"/>`;
-    for (let k = 0; k < 40; k++){ const a = k*2.4, rr = 25 + (k*37)%48; damage += `<circle cx="${(rr*Math.cos(a)).toFixed(1)}" cy="${(rr*Math.sin(a)).toFixed(1)}" r="${(0.5+(k%4)*.35).toFixed(2)}" fill="#3a2a1c" opacity=".55"/>`; }
-  }
-  return `<svg viewBox="-100 -100 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <radialGradient id="ti${id}"><stop offset=".8" stop-color="#1c1d20"/><stop offset=".93" stop-color="#0b0b0c"/><stop offset="1" stop-color="#1a1b1e"/></radialGradient>
-    <linearGradient id="lp${id}" x1="0" y1="0" x2="1" y2="1">${A?'<stop offset="0" stop-color="#f4f6f8"/><stop offset=".45" stop-color="#8d949c"/><stop offset=".6" stop-color="#e9ecef"/><stop offset="1" stop-color="#5d636a"/>':'<stop offset="0" stop-color="#8f8a80"/><stop offset=".5" stop-color="#5f5b54"/><stop offset="1" stop-color="#47443f"/>'}</linearGradient>
-    <linearGradient id="sp${id}" x1="0" y1="0" x2="1" y2="0">${A?'<stop offset="0" stop-color="#1e2226"/><stop offset=".5" stop-color="#3b4148"/><stop offset="1" stop-color="#16191c"/>':'<stop offset="0" stop-color="#4f4b45"/><stop offset=".5" stop-color="#6e6960"/><stop offset="1" stop-color="#46423c"/>'}</linearGradient>
-    <linearGradient id="dc${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f7f9fb"/><stop offset=".5" stop-color="#aeb5bd"/><stop offset="1" stop-color="#eef1f4"/></linearGradient>
-    <radialGradient id="du${id}"><stop offset=".2" stop-color="#4a3420" stop-opacity="0"/><stop offset=".85" stop-color="#4a3420" stop-opacity=".45"/><stop offset="1" stop-color="#4a3420" stop-opacity=".2"/></radialGradient>
-    <radialGradient id="sh${id}" cx=".35" cy=".3"><stop offset="0" stop-color="#fff" stop-opacity="${A?'.22':'0'}"/><stop offset=".6" stop-color="#fff" stop-opacity="0"/></radialGradient>
-  </defs>
-  <circle r="99" fill="url(#ti${id})"/>
-  <circle r="99" fill="none" stroke="#2a2b2f" stroke-width="1" stroke-dasharray="2 4"/>
-  <circle r="81" fill="url(#lp${id})"/>
-  <circle r="75" fill="#0d0f11"/>
-  <circle r="66" fill="none" stroke="${A?'#e3202f':'#5a1b1f'}" stroke-width="3" opacity="${A?'.9':'.5'}"/>
-  ${spokes}
-  <circle r="21" fill="url(#sp${id})" stroke="${A?'#5a6068':'#3a3732'}" stroke-width="1.2"/>
-  ${lugs}
-  <circle r="6.5" fill="${A?'#e3202f':'#6a2a2c'}"/><text y="2.3" text-anchor="middle" font-family="Barlow Condensed,Arial" font-weight="800" font-size="6.5" fill="#fff">C</text>
-  ${A?'':`<circle r="75" fill="url(#du${id})"/>`}
-  ${damage}
-  <circle r="81" fill="url(#sh${id})"/>
-</svg>`;
-}
-document.querySelectorAll("[data-wheel]").forEach(el => el.innerHTML = wheelSVG(el.dataset.wheel, el.dataset.id));
 
 /* Comparadores antes/depois */
 function bindBA(box){ const r = box.querySelector("input"); const f = () => box.style.setProperty("--p", r.value + "%"); r.addEventListener("input", f); f(); }
@@ -541,7 +504,7 @@ document.querySelectorAll(".reveal").forEach(el => io.observe(el));
 
 /* Galeria ampliada */
 const lb = document.getElementById("lb");
-document.querySelectorAll(".gal figure").forEach(fg => fg.addEventListener("click", () => { lb.querySelector("img").src = fg.querySelector("img").src; lb.classList.add("on"); }));
+document.querySelectorAll(".gal figure, .ba-photos figure").forEach(fg => fg.addEventListener("click", () => { lb.querySelector("img").src = fg.querySelector("img").src; lb.classList.add("on"); }));
 lb.addEventListener("click", () => lb.classList.remove("on"));
 </script>
 </body>
